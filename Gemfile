@@ -22,6 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -56,4 +57,15 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+#Carrierwave for image upload
+gem 'carrierwave', '~> 1.0'
+
+#Active admin and associated gems
+gem 'activeadmin'
+gem 'devise'
+gem 'cancan'
+gem 'draper'
+gem 'pundit'
+
 

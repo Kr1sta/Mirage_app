@@ -1,0 +1,49 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Universal */
+
+body {
+  margin: 0px;
+}
+
+/* HEADER */
+
+.header {
+  height: 100px;
+  text-align: center;
+  margin: 0px;
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px 25px;
+    color: #000;
+  }
+}
+
+.artwork {
+  max-width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.himage{
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.ender {
+  height: 300px;
+  width: 75%;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #5C5959;
+}
+
+.footer {
+  height: 100px;
+}
