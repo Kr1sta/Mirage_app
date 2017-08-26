@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+//Base
+@import "base/global.scss";
+
+//Styles
+@import "styles/static_pages.scss";
+@import "styles/users.scss";
+@import "styles/artists.scss"

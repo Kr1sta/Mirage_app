@@ -60,6 +60,7 @@ end
 
 #Carrierwave for image upload
 gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
 
 #Active admin and associated gems
 gem 'activeadmin'

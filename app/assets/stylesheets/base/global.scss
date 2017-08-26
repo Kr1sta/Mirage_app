@@ -1,0 +1,20 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  margin: 0px;
+}
+
+/* HEADER */
+
+.header {
+  height: 100px;
+  text-align: center;
+  margin: 0px;
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px 25px;
+    color: #000;
+  }
+}

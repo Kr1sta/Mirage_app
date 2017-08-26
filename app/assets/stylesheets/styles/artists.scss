@@ -1,0 +1,26 @@
+.artBox {
+  width: 75%;
+  margin: 0px auto;
+  background-color: #DBDADC;
+  min-height: 900px;
+}
+
+.artHead {
+  font-size: 50px;
+  margin-left: 100px;
+
+}
+
+.artList {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 175px;
+}
+
+.headShot {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  image-orientation: from-image;
+}
