@@ -9,20 +9,26 @@ body {
 
 .header {
   height: 100px;
+  margin: 0px auto;
+  width: 70%;
+}
+
+.links {
+  width: 100%;
   text-align: center;
-  margin: 0px;
+  position: relative;
+  top: -90px;
+  text-decoration: none;
+  margin: 40px 25px;
+  color: #000;
   a {
-    display: inline-block;
-    text-decoration: none;
-    margin: 40px 25px;
     color: #000;
+    margin: 0px 30px;
   }
 }
 
-.siteName {
+.logo {
+  height: 100px;
   display: inline-block;
-  position: relative;
-  right: 50px;
-  font-family: 'Rouge Script', cursive;
-  font-size: 75px;
+  margin: 0px;
 }

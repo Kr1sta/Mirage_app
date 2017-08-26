@@ -1,9 +1,7 @@
 <div class="header">
-  <p class="siteName">Mirage</p>
-    <%= link_to root_path do %>
-      <i class="fa fa-paint-brush" aria-hidden="true"></i>
-    <% end %>
-    <a href="#">About Us</a>
+    <%= link_to image_tag('MirageLogo.png', class: "logo"), root_path %>
+    <div class="links">
     <%= link_to 'Artists', artists_path %>
     <%= link_to 'Sign up Now!', new_user_path %>
+    </div>
 </div>
