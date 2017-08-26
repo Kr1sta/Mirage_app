@@ -2,6 +2,16 @@
 <html lang="en">
   <head></head>
   <body>
-    <h1>Hello, I'm <%= "Hello, I'm #{@artist.name}" %></h1>
+  <div class="artBox">
+    <h1 class="showHead"><%= "Hello, I'm #{@artist.name}!" %></h1>
+    <p class="description"><%= @artist.description %></p>
+
+    <div class="carouselBox">
+      <div class="artistCarousel">
+        <%= render 'shared/carousel', images: @artist.artwork %>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>

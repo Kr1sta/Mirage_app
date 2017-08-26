@@ -1,26 +1,74 @@
 .artBox {
-  width: 75%;
+  width: 90%;
   margin: 0px auto;
-  background-color: #DBDADC;
+  background-color: #EAEDED;
   min-height: 900px;
+  padding-bottom: 20px;
 }
 
 .artHead {
-  font-size: 50px;
-  margin-left: 100px;
-
+  padding-top: 25px;
+  font-size: 135px;
+  text-align: center;
+  color: #000;
+  font-family: 'Rouge Script', cursive;
 }
 
 .artList {
-  display: block;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-left: 175px;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.artist {
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  a {
+    font-size: 25px;
+    color: #000;
+    position: relative;
+    top: 5px;
+  }
 }
 
 .headShot {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  image-orientation: from-image;
 }
+
+// SHOW PAGE
+
+.description {
+  width: 60%;
+  background-color: #fff;
+  margin-left: 0px;
+  padding: 50px 20px 50px 50px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.showHead {
+  font-family: 'Rouge Script', cursive;
+  font-size: 80px;
+  text-align: center;
+  padding: 25px;
+}
+
+.carouselBox {
+  margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

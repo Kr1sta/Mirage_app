@@ -1,5 +1,5 @@
-<div class="">
-<%= image_tag(artist.headshot, class: "headShot") %>
+<div class="artist">
+<%= link_to image_tag(artist.headshot, class: "headShot"), artist_path(artist) %>
 <br/>
 <%= link_to artist.name, artist_path(artist) %>
 </div>
