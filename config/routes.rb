@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/about'
 
-  resources :users, only: [:new, :index]
+  resources :users, only: [:new, :create]
 
   resources :artists, only: [:index, :show]
 
