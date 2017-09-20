@@ -2,15 +2,29 @@
 <html lang="en">
   <head></head>
   <body>
-  <div class="artBox">
-    <h1 class="showHead"><%= "Hello, I'm #{@artist.name}!" %></h1>
-    <p class="description"><%= @artist.description %></p>
+  <div class="artist-box">
+    <div class="artist-info">
+      <h1 class="artist-name"><%= @artist.name %></h1>
 
-    <div class="carouselBox">
-      <div class="artistCarousel">
-        <%= render 'shared/carousel', images: @artist.artwork %>
+    <!-- Social Media Links (Image placeholders for now) -->
+      <div class="social-links">
+        <%= link_to '<i class="fa fa-globe" aria-hidden="true"></i>'.html_safe, 
+            "#", {target: :_blank} %>
+        <%= link_to '<i class="fa fa-facebook-square" aria-hidden="true"></i>'.html_safe, 
+            "#", {target: :_blank} %>
+        <%= link_to '<i class="fa fa-twitter-square" aria-hidden="true"></i>'.html_safe, 
+            "#", {target: :_blank} %>
+        <%= link_to '<i class="fa fa-deviantart" aria-hidden="true"></i>'.html_safe, 
+            "#", {target: :_blank} %>
       </div>
+
+      <p class="description"><%= @artist.description %></p>
     </div>
+
+    <div class="artist-carousel">
+        <%= render 'shared/carousel', images: @artist.artwork %>
+    </div>
+    <div style="clear:both;"></div>
   </div>
 
   </body>

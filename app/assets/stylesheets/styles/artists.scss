@@ -1,20 +1,14 @@
-.artBox {
-  width: 90%;
-  margin: 0px auto;
-  background-color: #EAEDED;
-  padding-bottom: 1px;
-}
-
-.artHead {
+.art-head {
   padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 75px;
+  margin: 0px;
+  font-size: 70px;
   text-align: center;
   color: #fff;
-  background-color: #5C5959
+  background-color: #9D475C;
 }
 
-.artList {
+.art-list {
   width: 80%;
   margin: 50px auto;
   text-align: center;
@@ -34,30 +28,62 @@
   }
 }
 
-.headShot {
+.headshot {
   height: 200px;
   width: 200px;
   object-fit: cover;
 }
 
-// SHOW PAGE
+// ---- SHOW PAGE ----
+
+.artist-box {
+  width: 90%;
+  margin: 0px auto;
+  background-color: #fff;
+  padding: 20px;  
+}
+
+.artist-info {
+  display: inline-block;
+  width: 35%;
+  float: left;
+}
+
+.artist-name {
+  text-align: center;
+  color: #fff;
+  background-color: #9D475C;
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.social-links {
+  width: 100%;
+  text-align: center;
+  margin: 20px 5px;
+  a {
+    margin: 5px;
+    color: #154360;
+    font-size: 16px;
+    &:hover {
+      color: #2980B9;
+    }
+  }
+}
 
 .description {
-  width: 60%;
-  background-color: #fff;
-  margin-left: 0px;
-  padding: 50px 20px 50px 50px;
+  text-align: right;
   font-size: 18px;
+  margin: 0px 0px 0px;
+  padding: 0px 15px 15px;
 }
 
-.showHead {
-  font-size: 75px;
-  text-align: center;
-  padding: 25px;
-}
-
-.carouselBox {
-  margin: 50px;
+.artist-carousel {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  margin: 10px;
 }
 
 

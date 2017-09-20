@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif !important;
+  background-color: #F2F3F4 !important;
 
 }
 
@@ -11,26 +12,24 @@ body {
 
 .header {
   height: 100px;
-  margin: 0px auto;
-  width: 70%;
+  margin: 0px 0px 15px;
+  // width: 90%;
+  background-color: #fff;
 }
 
 .links {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: -90px;
-  text-decoration: none;
-  margin: 40px 25px;
-  color: #000;
-  a {
-    color: #000;
-    margin: 0px 30px;
-  }
+  width: 50%;
+  height: 100%;
+  margin: 0px auto;
+    a {
+      text-decoration: none;
+      color: #000;
+      margin-left: 25px;
+      position: relative;
+      top: 10px;
+    }
 }
 
 .logo {
-  height: 100px;
-  display: inline-block;
-  margin: 0px;
+  height: 85px;
 }

@@ -1,8 +1,38 @@
 .signup_box {
   width: 55%;
-  margin: 0px auto;
+  margin: 25px auto;
+  padding: 30px 50px;
   text-align: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  
   h1 {
-    
+    color: #9D475C;
+    font-weight: bold;
   }
+
+  h2 {
+    color: #555;
+    font-size: 25px;
+  }
+
+  p { 
+    max-width: 450px;
+    margin: 0px auto;
+    color: #808586; 
+    font-size: 14px;
+  }
+
+  input { margin: 5px; }
+
+  label { width: 100px; }
+}
+
+#user_message {
+  margin-bottom: 20px;
+}
+
+.message {
+  width: 400px !important;
 }
