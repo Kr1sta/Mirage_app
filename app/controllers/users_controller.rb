@@ -11,7 +11,7 @@ class UsersController < ApplicationController
       flash[:success] = "Thank you for registering with Mirage! We will get back to you as soon as possible!"
     else
       render 'new'
-      flash[:error] = "It looks like something went wrong with your registration. Please try again"
+      flash[:error] = "It looks like something went wrong with your registration. Please try again."
     end
   end
 

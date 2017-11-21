@@ -68,5 +68,6 @@ gem 'devise'
 gem 'cancan'
 gem 'draper'
 gem 'pundit'
+gem 'fog'
 
 
